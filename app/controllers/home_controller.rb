@@ -4,7 +4,7 @@ class HomeController < ApplicationController
     end
 
     def index
-        @title = 'デイトラ'
+        @article = Article.first
     end
 
     def about
